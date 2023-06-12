@@ -6,10 +6,20 @@
 
 
 
+```
+see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+```
 
-> see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
+```
+update html files:
 
+<title>TemplateEN</title>
 
+<meta name="keywords" content="TemplateEN, patoloji, atlas, pathology, whole slide image">
+
+<meta name="description" content="TemplateEN">
+
+```
 
 
 > do not forget to activate github pages for the new repository
@@ -37,7 +47,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "TR")}
 
-## TemplateTR
+## TemplateTR {#sec-template}
 
 ```
 
@@ -46,7 +56,7 @@ source("./R/language.R")
 
 ```{asis, echo = (language == "EN")}
 
-## TemplateEN
+## TemplateEN {#sec-template}
 
 ```
 
@@ -58,13 +68,29 @@ source("./R/language.R")
 **templateTR**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[Tam Ekran](https://images.patolojiatlasi.com/template/HE.html)
 
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+```{comment} 
+asis, echo = (language == "TR")
+
+**templateTR**
+
+
+[Tam Ekran](https://images.patolojiatlasi.com/template/HE_annotated.html)
+
+İşaretlenmiş mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
 
 ```{comment}
 asis, echo = (language == "TR")
@@ -104,14 +130,30 @@ asis, echo = (language == "TR")
 **templateEN**
 
 
-[https://images.patolojiatlasi.com/template/HE.html](https://images.patolojiatlasi.com/template/HE.html)
+[Full Screen](https://images.patolojiatlasi.com/template/HE.html)
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:400px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
+
+```{comment}
+asis, echo = (language == "EN")
+
+**templateEN**
+
+
+[Full Screen](https://images.patolojiatlasi.com/template/HE_annotated.html)
+
+See Annotated Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+
+
+```
 
 ```{comment}
 asis, echo = (language == "EN")
